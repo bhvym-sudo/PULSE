@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buttonLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:background="@color/bottomBG"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="19dp"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:background="@color/bottomBG"
+        android:contentDescription="this is home button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_home" />
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:background="@color/bottomBG"
+        android:contentDescription="this is search button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_search"/>
+
+    <ImageButton
+        android:id="@+id/btn3"
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:background="@color/bottomBG"
+        android:contentDescription="this is list button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_list"/>
+
+</LinearLayout>
+
