@@ -9,11 +9,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.res.ResourcesCompat;
-import android.view.View;
-import android.view.WindowInsets;
-import android.view.WindowInsetsController;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
     private TextView titleText;
@@ -60,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         list.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, List.class);
+            Intent intent = new Intent(MainActivity.this, ListActivity.class);
             startActivity(intent);
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         });
@@ -92,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                     index++;
                     handler.postDelayed(this, 100);
                 } else {
-                    animatePar2(); // Start next animation after completion
+                    animatePar2(); 
                 }
             }
         }, 100);
