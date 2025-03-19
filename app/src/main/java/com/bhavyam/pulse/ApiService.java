@@ -9,7 +9,21 @@ import java.util.List;
 import retrofit2.http.Field;
 public interface ApiService {
     @GET("data/all")  
-    Call<List<NewsItem>> getNews();  
+    Call<List<NewsItem>> getWorldNews();
+    @GET("data/europe")
+    Call<List<NewsItem>> getEuropeNews();
+
+    @GET("data/africa")
+    Call<List<NewsItem>> getAfricaNews();
+
+    @GET("data/americas")
+    Call<List<NewsItem>> getAmericasNews();
+
+    @GET("data/asiapac")
+    Call<List<NewsItem>> getAsiaPacificNews();
+
+    @GET("data/middleeast")
+    Call<List<NewsItem>> getMiddleEastNews();
 
     @FormUrlEncoded  
     @POST("search")  

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bottomBG"
+    android:padding="16dp">
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Categories"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="16dp"
+    android:textColor="@color/foregrounds"
+
+
+    />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/foregrounds"
+        android:layout_marginTop="8dp"
+        android:alpha="0.4" />
+
+
+    <TextView
+    android:id="@+id/menuWorld"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="World"
+    android:textSize="16sp"
+    android:padding="10dp"
+    android:background="?attr/selectableItemBackground"
+    android:textColor="@color/foregrounds"/>
+
+    <TextView
+    android:id="@+id/menuEurope"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Europe"
+    android:textSize="16sp"
+    android:padding="10dp"
+    android:background="?attr/selectableItemBackground"
+
+    android:textColor="@color/foregrounds"/>
+
+    <TextView
+    android:id="@+id/menuAfrica"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Africa"
+    android:textSize="16sp"
+    android:padding="10dp"
+    android:background="?attr/selectableItemBackground"
+    android:textColor="@color/foregrounds"/>
+
+    <TextView
+    android:id="@+id/menuAmerica"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="America"
+    android:textSize="16sp"
+    android:padding="10dp"
+    android:background="?attr/selectableItemBackground"
+    android:textColor="@color/foregrounds"/>
+
+    <TextView
+    android:id="@+id/menuAsiaPacific"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Asia Pacific"
+    android:textSize="16sp"
+    android:padding="10dp"
+    android:background="?attr/selectableItemBackground"
+    android:textColor="@color/foregrounds"/>
+
+    <TextView
+    android:id="@+id/menuMiddleEast"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Middle East"
+    android:textSize="16sp"
+    android:padding="10dp"
+    android:background="?attr/selectableItemBackground"
+    android:textColor="@color/foregrounds"/>
+
+    </LinearLayout>
